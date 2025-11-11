@@ -1,0 +1,24 @@
+{
+  "name": "cdlnetworkllc",
+  "version": "1.0.0",
+  "description": "Serverless backend for CDL Network lead capture form.",
+  "type": "module",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VickTorry/cdlnetworkllc.git"
+  },
+  "keywords": ["vercel", "serverless", "hubspot", "api", "lead"],
+  "author": "Victoria Dudnyk <victoriadudnyk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VickTorry/cdlnetworkllc/issues"
+  },
+  "homepage": "https://github.com/VickTorry/cdlnetworkllc#readme"
+}
