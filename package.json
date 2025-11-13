@@ -14,11 +14,26 @@
     "type": "git",
     "url": "https://github.com/VickTorry/cdlnetworkllc.git"
   },
-  "keywords": ["vercel", "serverless", "hubspot", "api", "lead"],
+  "keywords": [
+    "vercel",
+    "serverless",
+    "hubspot",
+    "api",
+    "lead"
+  ],
   "author": "Victoria Dudnyk <victoriadudnyk@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VickTorry/cdlnetworkllc/issues"
   },
-  "homepage": "https://github.com/VickTorry/cdlnetworkllc#readme"
+  "homepage": "https://github.com/VickTorry/cdlnetworkllc#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@vercel/node": "^5.5.5",
+    "eslint": "^9.39.1",
+    "prettier": "^3.6.2"
+  }
 }
