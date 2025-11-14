@@ -23,9 +23,11 @@ export function titleCase(str) {
 // Strip undefined / null / empty string keys.
 export function cleanObject(obj) {
   return Object.fromEntries(
-    Object.entries(obj).filter(
-      ([, v]) => v !== undefined && v !== null && v !== ''
-    )
+    Object.entries(obj).filter(([ , v ]) => {
+      if (v === undefined || v === null) return false;
+      if (typeof v === 'string' && v.trim() === '') return false; // <--- add this
+      return true;
+    })
   );
 }
 
